@@ -51,3 +51,45 @@ nav{
 section{
     background-color: #F7F7F7;
 }
+/*========================================================================================================================*/
+/*---Anny---*/
+a {
+	text-decoration: none;
+}
+.icon-square {
+	color: #ffc107;
+	display: inline-block;
+}
+.dropdown {
+	padding-left: 100px;
+	padding-top: 30px;
+	width: auto;
+	background-color: #fff;
+	outline: 1px purple solid;
+}
+.dropbtn {
+	width: auto;
+	font-size: 30px;
+}
+.option-menu {
+	display: inline-block;
+}
+.laboratoria-place {
+	border-bottom: 2px solid #ffc107;
+	width: 180px;
+	outline: 1px solid green;
+}
+.block {
+	display: block;
+}
+.place {
+	margin-left: 6px;
+}
+.generation {
+	margin-left: 6px;
+}
+.menu-form {
+	margin: 12px 0;
+	width: 120px;
+	outline: 1px solid red;
+}

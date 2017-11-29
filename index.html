@@ -5,6 +5,7 @@
     <title>Data Dashboard</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/icons/icomoon/style.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
@@ -19,20 +20,51 @@
       </nav>
     </header>
     <section id="bar-container" class="bar">
-      <select name="Sede">
-        <option value="1">Lima</option> 
-        <option value="2">Arequipa</option> 
-        <option value="3">Santiago de Chile</option>
-        <option value="4">Ciudad de Mexico</option> 
-      </select>
-      <select name="Promocin">
-        <option value="1">2015 - I</option> 
-        <option value="2">2015 - II</option> 
-        <option value="3">2016 - I</option>
-        <option value="4">2016 - II</option> 
-        <option value="3">2017 - I</option>
-        <option value="4">2017 - II</option> 
-      </select>
+     <div class="dropdown">
+     	<div class="dropbtn"><p class="option-menu">General View</p><span class="icon-triangle-down"></span></div>
+     	<div class="dropdown-list-lima">
+     		<form class="laboratoria-place" class="menu-form" ><input href="#" type="checkbox" ><span class="place">Lima</span></form>                                  
+     		
+     		<form class="menu-form" ><input href="#" type="checkbox" name="chooseone" ><span class="generation">2014 - II</span></form> 
+     		<form class="menu-form" ><input href="#" type="checkbox" name="chooseone"><span class="generation">2015 - I</span></form> 
+     		<form class="menu-form" ><input href="#" type="checkbox" name="chooseone" ><span class="generation">2015 - II</span></form> 
+     		<form class="menu-form" ><input href="#" type="checkbox" name="chooseone" ><span class="generation">2016 - I</span></form> 
+     		<form class="menu-form" ><input href="#" type="checkbox" name="chooseone" ><span class="generation">2016 - II</span></form> 
+     		<form class="menu-form" ><input href="#" type="checkbox" name="chooseone"><span class="generation">2017 - I</span></form> 
+     		<form class="menu-form" ><input href="#" type="checkbox" name="chooseone"><span class="generation">2017 - II</span></form> 
+     	</div>
+     	<div class="dropdown-list-santiago">
+     		<form class="laboratoria-place" class="menu-form" ><input href="#" type="checkbox" ><span class="place">Santiago de Chile</span></form>   
+     		
+     		<form class="menu-form" ><input href="#" type="checkbox" ><span class="generation">2015 - I</span></form> 
+     		<form class="menu-form" ><input href="#" type="checkbox" ><span class="generation">2015 - II</span></form> 
+     		<form class="menu-form" ><input href="#" type="checkbox" ><span class="generation">2016 - I</span></form> 
+     		<form class="menu-form" ><input href="#" type="checkbox" ><span class="generation">2016 - II</span></form> 
+     		<form class="menu-form" ><input href="#" type="checkbox" ><span class="generation">2017 - I</span></form> 
+     		<form class="menu-form" ><input href="#" type="checkbox" ><span class="generation">2017 - II</span></form> 
+     	</div>
+     	<div class="dropdown-list-mexico">
+     		<form class="laboratoria-place" class="menu-form" ><input href="#" type="checkbox" ><span class="place">Mexico</span></form>   
+     		
+     		<form class="menu-form" ><input href="#" type="checkbox" ><span class="generation">2015 - I</span></form> 
+     		<form class="menu-form" ><input href="#" type="checkbox" ><span class="generation">2015 - II</span></form> 
+     		<form class="menu-form" ><input href="#" type="checkbox" ><span class="generation">2016 - I</span></form> 
+     		<form class="menu-form" ><input href="#" type="checkbox" ><span class="generation">2016 - II</span></form> 
+     		<form class="menu-form" ><input href="#" type="checkbox" ><span class="generation">2017 - I</span></form> 
+     		<form class="menu-form" ><input href="#" type="checkbox" ><span class="generation">2017 - II</span></form> 
+     	</div>
+     	<div class="dropdown-list-arequipa">
+     		<form class="laboratoria-place" class="menu-form" ><input href="#" type="checkbox" ><span class="place">Arequipa</span></form>   
+     		
+     		<form class="menu-form" ><input href="#" type="checkbox" ><span class="generation">2015 - I</span></form> 
+     		<form class="menu-form" ><input href="#" type="checkbox" ><span class="generation">2015 - II</span></form> 
+     		<form class="menu-form" ><input href="#" type="checkbox" ><span class="generation">2016 - I</span></form> 
+     		<form class="menu-form" ><input href="#" type="checkbox" ><span class="generation">2016 - II</span></form> 
+     		<form class="menu-form" ><input href="#" type="checkbox" ><span class="generation">2017 - I</span></form> 
+     		<form class="menu-form" ><input href="#" type="checkbox" ><span class="generation">2017 - II</span></form> 
+     	</div>
+     </div>
+      <!--====================================================================================================================-->
     </section>
     <section></section>
 		<!-- Base de datos -->
