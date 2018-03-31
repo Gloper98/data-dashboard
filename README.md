@@ -1,4 +1,12 @@
 # Data Dashboard
+Es una herramienta web que permite a lxs Training Managers (TMs) analizar la mayor cantidad de datos fácil y rápidamente.
+
+![image](https://user-images.githubusercontent.com/32302890/38159667-fcecb372-3472-11e8-87d7-521fd2b03b44.png)
+
+## Desarrollado para 
+[Laboratoria](http://laboratoria.la)
+
+## Descripcion
 
 * **Track:** _Common Core_
 * **Curso:** _Creando tu primer sitio web interactivo_
